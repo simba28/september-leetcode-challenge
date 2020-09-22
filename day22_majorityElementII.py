@@ -8,6 +8,12 @@ Note: The algorithm should run in linear time and in O(1) space.
 Boyer-Moore Voting Algorithm
 '''
 
+'''
+link 
+https://leetcode.com/problems/majority-element-ii/solution/
+'''
+
+
 class Solution:
     def majorityElement(self, nums):
         
