@@ -14,9 +14,7 @@ class Solution:
         '''
         
         res = 0
-        for ch in s:
-            res ^= ord(ch)
-        for ch in t:
+        for ch in s+t:
             res ^= ord(ch)
             
         return chr(res)
